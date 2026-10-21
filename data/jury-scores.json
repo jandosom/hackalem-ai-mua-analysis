@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "event": "HackAlem AI 2026",
+  "track": "Спецтрек Казахтелеком",
+  "observed_on": "2026-10-21",
+  "description": "Опубликованные человеческие оценки четырёх решений. Не является полным рейтингом трека или протоколом финального обсуждения.",
+  "criteria": [
+    { "id": "task_fit_and_operability", "label_ru": "Соответствие задаче и работоспособность", "maximum": 25 },
+    { "id": "technical_implementation", "label_ru": "Техническая реализация", "maximum": 25 },
+    { "id": "readme_and_reproducibility", "label_ru": "README и воспроизводимость", "maximum": 25 },
+    { "id": "value_and_applicability", "label_ru": "Ценность и применимость", "maximum": 15 },
+    { "id": "development_potential_and_originality", "label_ru": "Потенциал развития и оригинальность подхода", "maximum": 10 }
+  ],
+  "criteria_label_note_ru": "Русские наименования передают смысл критериев; максимумы и баллы воспроизведены из просмотренных таблиц.",
+  "total_maximum": 100,
+  "evaluator": "Olzhas Toiteyev",
+  "published_human_evaluator_count_per_submission": 1,
+  "prize_place_source_ru": "Призовые значки на просмотренных страницах решений 21 октября 2026 года, совпадающие с предоставленным командой скриншотом итогов. Не вычислено из приведённых баллов.",
+  "rules_url": "https://edu.astanahub.com/hackathons/df4743f5-c492-415c-b45a-1f13adb78e06?tab=regulations",
+  "limitations_ru": [
+    "В просмотренных карточках не найдены отдельные оценки остальных членов жюри и итоговый протокол коллективного обсуждения.",
+    "AI Scoring не является человеческим комментарием оценщика; автоматические замечания необходимо проверять отдельно.",
+    "Четвёртое место MUA в отборе сообщено командой; отдельная официальная строка рейтинга с этим местом не обнаружена.",
+    "Точные причины распределения призовых мест по этим данным не установлены."
+  ],
+  "submissions": [
+    {
+      "team": "MUA",
+      "project": "ОргДифф",
+      "submission_id": "fdf6e49e-efd8-44c5-97a5-7c85f09ff178",
+      "source_url": "https://edu.astanahub.com/hackathons/df4743f5-c492-415c-b45a-1f13adb78e06/submissions/fdf6e49e-efd8-44c5-97a5-7c85f09ff178",
+      "scores": { "task_fit_and_operability": 20, "technical_implementation": 24, "readme_and_reproducibility": 24, "value_and_applicability": 13, "development_potential_and_originality": 8 },
+      "total": 89,
+      "delta_total_vs_mua": 0,
+      "prize_place": null,
+      "selection_place_reported_by_team": 4,
+      "selection_place_independently_verified": false,
+      "human_comment_quote_ru": "Программная проверка цитат и пунктов с отбрасыванием неподтверждённых находок; гибридное смысловое сопоставление (эмбеддинги + LLM) со статусом moved; правила конфликта исполнения и контроля с LLM-подтверждением; честный mock/live без тихой подмены; 159 тестовых функций; подробный README с раскрытием фикстур и подготовленного каркаса.",
+      "human_comment_summary_ru": [
+        "Программная проверка пунктов и цитат, отбрасывание неподтверждённых результатов.",
+        "Совместное использование эмбеддингов и LLM, статус moved для переноса функций.",
+        "Правила конфликтов исполнения и контроля с LLM-проверкой.",
+        "Явное разделение mock и live без скрытой подмены результатов при сбое.",
+        "Отмечены 159 тестовых функций.",
+        "Подробный README, раскрытие фикстур и подготовленного каркаса."
+      ]
+    },
+    {
+      "team": "Singularity",
+      "project": "OrgDiff",
+      "submission_id": "2903bbc3-e7b9-4304-81ea-363e58b32ef6",
+      "source_url": "https://edu.astanahub.com/hackathons/df4743f5-c492-415c-b45a-1f13adb78e06/submissions/2903bbc3-e7b9-4304-81ea-363e58b32ef6",
+      "scores": { "task_fit_and_operability": 18, "technical_implementation": 24, "readme_and_reproducibility": 24, "value_and_applicability": 14, "development_potential_and_originality": 9 },
+      "total": 89,
+      "delta_total_vs_mua": 0,
+      "prize_place": 1,
+      "selection_place_reported_by_team": null,
+      "selection_place_independently_verified": null,
+      "human_comment_quote_ru": "Полностью вычисляемый конвейер (правила + эмбеддинги + LLM-судья + самопроверка потерь), программная проверка цитат с отбрасыванием неподтверждённых выводов, детектор несопоставимых комплектов, 5 форматов включая OCR, eval по эталону и мутированному контрольному комплекту, очень полный README.",
+      "human_comment_summary_ru": [
+        "Полный конвейер: правила, эмбеддинги, LLM-судья и повторная проверка потерь функций.",
+        "Программная проверка цитат.",
+        "Проверка связанности загруженных документов.",
+        "Пять форматов, включая OCR, по формулировке комментария.",
+        "Проверки на эталонном и специально изменённом контрольном наборе.",
+        "Очень подробный README."
+      ]
+    },
+    {
+      "team": "Optimus",
+      "project": "OrgScope",
+      "submission_id": "86939438-7647-47f7-b630-ec6c3c778a22",
+      "source_url": "https://edu.astanahub.com/hackathons/df4743f5-c492-415c-b45a-1f13adb78e06/submissions/86939438-7647-47f7-b630-ec6c3c778a22",
+      "scores": { "task_fit_and_operability": 19, "technical_implementation": 24, "readme_and_reproducibility": 24, "value_and_applicability": 14, "development_potential_and_originality": 9 },
+      "total": 90,
+      "delta_total_vs_mua": 1,
+      "prize_place": 2,
+      "selection_place_reported_by_team": null,
+      "selection_place_independently_verified": null,
+      "human_comment_quote_ru": "Детерминированный каркас + LLM-судья только для кандидатов; строгая substring-проверка цитат с блокировкой заключения; эмбеддинги + LLM для переноса с перефразировкой; Word/PDF/Excel; честный 503 без ключа; 49+16 тестов; опциональная регуляторика с проверкой цитат норм.",
+      "human_comment_summary_ru": [
+        "Детерминированный каркас и LLM-проверка предварительно выбранных кандидатов.",
+        "Поиск цитаты в тексте и блокировка заключения при отсутствии подтверждения.",
+        "Сопоставление переформулированных и перенесённых функций.",
+        "Word, PDF и Excel.",
+        "Явный ответ 503 без ключа.",
+        "Отмечены 49+16 тестов.",
+        "Опциональное нормативное сравнение с проверкой цитат норм."
+      ]
+    },
+    {
+      "team": "Amazing Guys",
+      "project": "Kontur",
+      "submission_id": "2c527d65-27fe-4f57-b811-02be8ac854d5",
+      "source_url": "https://edu.astanahub.com/hackathons/df4743f5-c492-415c-b45a-1f13adb78e06/submissions/2c527d65-27fe-4f57-b811-02be8ac854d5",
+      "scores": { "task_fit_and_operability": 20, "technical_implementation": 23, "readme_and_reproducibility": 24, "value_and_applicability": 13, "development_potential_and_originality": 8 },
+      "total": 88,
+      "delta_total_vs_mua": -1,
+      "prize_place": 3,
+      "selection_place_reported_by_team": null,
+      "selection_place_independently_verified": null,
+      "human_comment_quote_ru": "Строгая структурная валидация вывода модели (неизвестные источники, непокрытые функции, потеря против сохранения — отклонение всего отчёта); Word/PDF/Excel/MD; честный отказ без ключа; учёт стоимости; большой набор тестов и Playwright.",
+      "human_comment_summary_ru": [
+        "Строгая проверка ответа модели.",
+        "Отказ принять весь отчёт при неизвестном источнике, непокрытой функции или противоречии.",
+        "Word, PDF, Excel и Markdown.",
+        "Явный отказ от анализа без ключа.",
+        "Расчёт стоимости модели.",
+        "Тесты Playwright."
+      ]
+    }
+  ],
+  "comment_summary_note_ru": "Поле human_comment_quote_ru содержит опубликованный человеческий комментарий; human_comment_summary_ru — его смысловой пересказ."
+}
